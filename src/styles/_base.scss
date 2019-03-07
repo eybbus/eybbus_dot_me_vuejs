@@ -1,0 +1,45 @@
+// FONT
+
+html {
+  // 1rem = 10px
+  font-size: 10px;
+}
+
+body {
+  font-family: $sans;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: $gray;
+  -webkit-font-smoothing: antialiased;
+}
+
+// LAYOUT
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100% - 2 * $site-gutter;
+  max-width: $site-width;
+  margin-right: auto;
+  margin-left: auto;
+
+  &.container--vertically-center {
+    align-items: center;
+  }
+
+  &.container--wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.column {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+a {
+  color: $light-blue;
+}
