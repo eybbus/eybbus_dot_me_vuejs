@@ -3,7 +3,7 @@
     <div class="container container--vertically-center">
       <div class="logo">
         <a href="eybbus.me">
-          <img src="@/assets/Logo.png" alt>
+          <img src="@/assets/logo.png" alt>
         </a>
       </div>
       <ul class="header-list">
