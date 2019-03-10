@@ -10,7 +10,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: 'profession'
+      redirect: '/profession'
     },
     {
       path: '/profession',
@@ -18,13 +18,13 @@ export default new Router({
       component: MyWork
     },
     {
-      path: '/me',
-      name: 'me',
+      path: '/AboutMe',
+      name: 'AboutMe',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "about" */ './views/ThePerson.vue')
+        import(/* webpackChunkName: "about" */ './views/AboutMe.vue')
     }
   ]
 });

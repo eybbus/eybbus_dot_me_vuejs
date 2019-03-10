@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="buttons">
-      <router-link class="route" to="/profession">Profession</router-link>
-      <router-link class="route" to="/me">PERSON</router-link>
+      <router-link class="route" to="/Profession">Profession</router-link>
+      <router-link class="route" to="/AboutMe">About Me</router-link>
     </div>
   </div>
 </template>

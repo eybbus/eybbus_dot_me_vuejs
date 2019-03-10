@@ -2,18 +2,16 @@
   <nav class="nav">
     <div class="container container--vertically-center">
       <div class="logo">
-        <a href="eybbus.me">
+        <a href="https://www.eybbus.me">
           <img src="@/assets/logo.png" alt>
         </a>
       </div>
       <ul class="header-list">
         <li>
-          <!-- <a href="/thePerson">Me</a> -->
-          <router-link to="/Me">Me</router-link>
+          <router-link to="/AboutMe">About Me</router-link>
         </li>
         <li>
-          <!-- <a href="#">Work</a> -->
-          <router-link to="/profession">Work</router-link>
+          <router-link to="/Profession">Work</router-link>
         </li>
         <li>
           <a href="#footer">Contact</a>

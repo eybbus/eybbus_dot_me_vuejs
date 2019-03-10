@@ -3,6 +3,7 @@
     <h2>Professional Life</h2>
     <h3>Programmer</h3>
     <p>TODO: add languages experience</p>
+
     <h3>Technician</h3>
     <ul v-if="technician.length > 0">
       <li v-for="(job, index) in technician" :key="index">

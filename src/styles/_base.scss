@@ -42,4 +42,8 @@ body {
 
 a {
   color: $light-blue;
+  &:hover {
+    text-decoration-line: underline;
+    color: $dark-blue;
+  }
 }

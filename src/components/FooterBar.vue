@@ -19,6 +19,9 @@
         </li>
       </ul>
     </div>
+    <div class="footer-container">
+      <h3>Made with VueJs</h3>
+    </div>
   </footer>
 </template>
 
