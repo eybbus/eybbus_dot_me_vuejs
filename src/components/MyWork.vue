@@ -1,9 +1,13 @@
 <template>
-  <div class="myWork">
-    <h2>Professional Life</h2>
+  <div class="myWork" id="myWork">
+    <h1>Experience</h1>
     <h3>Programmer</h3>
-    <p>TODO: add languages experience</p>
-
+    <H2>
+      Currently working a final project for
+      <a
+        href="https://www.vinnueftirlit.is/english"
+      >Vinnueftirlitið</a>
+    </H2>
     <h3>Technician</h3>
     <ul v-if="technician.length > 0">
       <li v-for="(job, index) in technician" :key="index">
@@ -124,5 +128,14 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   color: $red;
+}
+
+h1 {
+  border-bottom: 1px solid $light-blue;
+  color: $dark-blue;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
 }
 </style>

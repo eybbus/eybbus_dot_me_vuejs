@@ -2,25 +2,18 @@
   <div id="app">
     <header-bar></header-bar>
     <Opening></Opening>
-    <navbar></navbar>
-    <transition
-      name="fade"
-      mode="out-in"
-      @beforeLeave="beforeLeave"
-      @enter="enter"
-      @afterEnter="afterEnter"
-    >
-      <router-view/>
-    </transition>
+    <my-work></my-work>
+    <about-me></about-me>
     <footer-bar></footer-bar>
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar";
 import Opening from "./components/Opening";
 import FooterBar from "./components/FooterBar";
 import HeaderBar from "./components/HeaderBar";
+import MyWork from "./components/MyWork";
+import AboutMe from "./components/AboutMe";
 
 export default {
   name: "App",
@@ -31,9 +24,10 @@ export default {
   },
   components: {
     HeaderBar,
-    Navbar,
     Opening,
-    FooterBar
+    FooterBar,
+    MyWork,
+    AboutMe
   },
   methods: {
     beforeLeave(element) {

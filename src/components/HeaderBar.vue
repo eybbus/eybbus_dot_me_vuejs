@@ -8,10 +8,10 @@
       </div>
       <ul class="header-list">
         <li>
-          <router-link to="/AboutMe">About Me</router-link>
+          <a href="#myWork">Work</a>
         </li>
         <li>
-          <router-link to="/Profession">Work</router-link>
+          <a href="#about">About Me</a>
         </li>
         <li>
           <a href="#footer">Contact</a>

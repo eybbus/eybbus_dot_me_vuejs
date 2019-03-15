@@ -8,7 +8,6 @@
       <font-awesome-icon icon="angle-down" v-show="isOpen" class="icon"/>
       <span v-show="isOpen">{{this.details}}</span>
     </div>
-    <div class="collaps"></div>
   </div>
 </template>
 
@@ -83,6 +82,7 @@ export default {
   flex-shrink: 1;
   flex-basis: 100%;
 }
+
 .icon {
   flex-basis: 100%;
   margin: 0px;
@@ -95,9 +95,4 @@ export default {
 h3 {
   font-weight: 400;
 }
-
-/* .collapsed > .when-opened,
-:not(.collapsed) > .when-closed {
-  display: none;
-} */
 </style>
