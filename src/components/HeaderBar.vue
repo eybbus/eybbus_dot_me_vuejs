@@ -8,7 +8,7 @@
       </div>
       <ul class="header-list">
         <li>
-          <a href="#myWork">Work</a>
+          <a href="#work">Work</a>
         </li>
         <li>
           <a href="#about">About Me</a>
@@ -55,7 +55,7 @@ export default {};
   text-align: right;
   li {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 40px;
     letter-spacing: 0.5px;
     font-size: 1.8rem;
   }

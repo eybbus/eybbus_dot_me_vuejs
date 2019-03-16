@@ -33,6 +33,28 @@ body {
   }
 }
 
+.title {
+  border-bottom: 1px solid $light-blue;
+  color: $dark-blue;
+  font-size: 2.75rem;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  border-bottom: 1px solid $red;
+  color: $dark-blue;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 .column {
   margin: 10px;
   flex-grow: 1;

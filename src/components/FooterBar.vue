@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-container" id="footer">
-      <h1>Want To Contact Me?</h1>
+      <h1 class="title">Want To Contact Me?</h1>
     </div>
     <div class="footer-container">
       <ul class="contact-list">
@@ -20,7 +20,7 @@
       </ul>
     </div>
     <div class="footer-container">
-      <h3>Made with VueJs</h3>
+      <h3>Made with VueJs because I wanted to learn it</h3>
     </div>
   </footer>
 </template>
@@ -49,16 +49,32 @@ export default {
   margin-left: auto;
 }
 
+.title {
+  width: 90%;
+}
+
 .contact-list {
   margin: 0;
   padding: 0;
   font-size: 1.6em;
+  @include min($tablet) {
+    display: inline-block;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
   li {
     display: inline-block;
     @include min($tablet) {
       margin: 0 25px 0 0;
     }
-    margin: 0 25px;
+    text-align: center;
+    flex: 0 0 50%;
   }
+}
+
+h1 {
+  font-weight: 500;
 }
 </style>

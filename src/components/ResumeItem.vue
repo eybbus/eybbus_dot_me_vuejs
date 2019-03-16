@@ -1,13 +1,13 @@
 <template>
   <div class="myWork" id="myWork">
-    <h1>Experience</h1>
+    <h2 class="sub-title">Resume</h2>
     <h3>Programmer</h3>
-    <H2>
+    <H4>
       Currently working a final project for
       <a
         href="https://www.vinnueftirlit.is/english"
       >Vinnueftirlitið</a>
-    </H2>
+    </H4>
     <h3>Technician</h3>
     <ul v-if="technician.length > 0">
       <li v-for="(job, index) in technician" :key="index">
@@ -36,7 +36,7 @@
 <script>
 import JobItem from "@/components/JobItem";
 export default {
-  name: "myWork",
+  name: "ResumeItem",
   components: { JobItem },
   data: function() {
     return {
@@ -115,27 +115,18 @@ ul {
   padding: 0 5px;
 }
 
-h2 {
+h4 {
   font-weight: 500;
   margin-left: auto;
   margin-right: auto;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin: 10px 0;
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
   color: $red;
-}
-
-h1 {
-  border-bottom: 1px solid $light-blue;
-  color: $dark-blue;
-  font-size: 3rem;
-  font-weight: 600;
-  margin-right: auto;
-  margin-left: auto;
 }
 </style>

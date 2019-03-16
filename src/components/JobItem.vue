@@ -2,7 +2,7 @@
   <div class="job-item">
     <div class="job-item-container" @click="toggle()">
       <h3 class="name">{{this.name}}</h3>
-      <span class="title">{{this.title}}</span>
+      <span class="job-title">{{this.title}}</span>
       <span class="duration">{{this.duration}}</span>
       <font-awesome-icon icon="angle-up" v-show="!isOpen" class="icon"/>
       <font-awesome-icon icon="angle-down" v-show="isOpen" class="icon"/>
@@ -62,7 +62,7 @@ export default {
   flex-basis: 50%;
   margin: 0px;
 }
-.title {
+.job-title {
   @include min($tablet) {
     flex-grow: 1;
     flex-shrink: 1;
