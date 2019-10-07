@@ -8,21 +8,18 @@
         <h2>Currently doing:</h2>
         <div class="status-container">
           <div class="status-logo">
-            <a href="https://en.ru.is/">
-              <img src="@/assets/HR_logo_hringur_transparent.png" alt="HR Logo">
+            <a href="https://www.eybbus.me">
+              <img src="@/assets/job_search.png" alt="Job Search icon" />
             </a>
           </div>
-          <div class="status-text">
-            <p>
-              Finishing computer science at
-              <a href="https://en.ru.is/">University of Reykjavík</a>
-            </p>
-          </div>
+          <div
+            class="status-text"
+          >Searching for a job. My contact information can be found at the bottom of the page.</div>
         </div>
       </div>
     </div>
     <div class="image-container">
-      <img src="../assets/bus-station.jpg" alt="missing picture of me">
+      <img src="../assets/bus-station.jpg" alt="missing picture of me" />
     </div>
   </div>
 </template>
