@@ -2,6 +2,15 @@
 
 # eybbus_dot_me_vuejs
 
+This is my first homepage.
+
+The hompage was made with vuejs because I wanted to see how it compares to using native javascript or reactjs.
+
+My first project using vuejs and SASS/SCSS.
+Designed to be responsive, in other words, it should work with mobile.
+
+## Screenshot
+
 ## Project setup
 
 ```
