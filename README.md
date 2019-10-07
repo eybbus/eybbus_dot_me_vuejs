@@ -10,6 +10,8 @@ My first project using vuejs and SASS/SCSS.
 Designed to be responsive, in other words, it should work with mobile.
 
 ## Screenshot
+Screenshot taken 7/10/2019
+![image](https://github.com/eybbus/eybbus_dot_me_vuejs/blob/master/doc/Screenshot_7_10_2019.png)
 
 ## Project setup
 
