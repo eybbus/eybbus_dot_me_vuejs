@@ -5,16 +5,18 @@
       <div class="list-item">
         <h3>Languages</h3>
         <ul class="outside">
-          <li>Intermediate
+          <li>
+            Intermediate
             <ul class="outside">
-              <li>C/C++</li>
               <li>Javascript</li>
               <li>C#</li>
               <li>SQL</li>
             </ul>
           </li>
-          <li>Basics
+          <li>
+            Basics
             <ul class="outside">
+              <li>C/C++</li>
               <li>Python</li>
               <li>Java</li>
             </ul>

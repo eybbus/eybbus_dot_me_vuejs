@@ -2,12 +2,16 @@
   <div class="myWork" id="myWork">
     <h2 class="sub-title">Resume</h2>
     <h3>Programmer</h3>
-    <H4>
-      Currently working a final project for
-      <a
-        href="https://www.vinnueftirlit.is/english"
-      >Vinnueftirlitið</a>
-    </H4>
+    <ul v-if="programmer.length > 0">
+      <li v-for="(job, index) in programmer" :key="index">
+        <job-item
+          :name="job.name"
+          :title="job.title"
+          :duration="job.duration"
+          :details="job.details"
+        />
+      </li>
+    </ul>
     <h3>Technician</h3>
     <ul v-if="technician.length > 0">
       <li v-for="(job, index) in technician" :key="index">
@@ -40,7 +44,15 @@ export default {
   components: { JobItem },
   data: function() {
     return {
-      programmer: {},
+      programmer: [
+        {
+          name: "Vinnueftirlitið",
+          title: "Mobile developer",
+          duration: "5 months",
+          details:
+            "My final project at the university. Group project of creating a mobile app for the company."
+        }
+      ],
       technician: [
         {
           name: "Tæknivörur ehf",
